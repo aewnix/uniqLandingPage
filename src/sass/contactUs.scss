@@ -1,0 +1,86 @@
+#contactUs {
+  width: 100vw;
+  background: linear-gradient(90deg, rgba(193,174,238,1) 0%, rgba(255,255,255,1) 100%);
+  //background: linear-gradient(90deg, #82C7D7 6.3%, rgba(130, 215, 174, 0.760417) 53.22%, rgba(133, 188, 16, 0) 103.17%);
+  padding: 3vh 12vw;
+  color: white;
+
+  h2 {
+    font-size: 5vh;
+  }
+
+  .column:first-child {
+    width: 50%;
+    padding-right: 5vw;
+  }
+
+  .formContainer {
+    width: 30vw;
+    margin: 5vh auto;
+    padding: 3vh 5vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+
+    label, input {
+      display: block;
+      color: #2f2f2f;
+      margin: 1vh;
+      width: 100%;
+    }
+
+    label {
+      font-size: 2vh;
+      font-weight: 600;
+      color: #2f2f2f;
+    }
+    textarea {
+      border: none;
+      border-bottom: 1px solid #d4d4d4;
+      resize: none;
+      font-size: 1.8vh;
+      color: #2f2f2f;
+      line-height: 1.8vh;
+      width: 100%;
+      font-family: "Inter", sans-serif;
+      margin: 1vh;
+      height: max-content;
+      padding: 10px;
+    }
+    input {
+      font-size: 1.8vh;
+      margin-bottom: 2.3vh;
+    }
+    .privacy {
+      font-weight: 400;
+      display: flex;
+      flex-direction: row;
+      font-size: 1.5vh;
+      line-height: 1.5vh;
+      margin: 2vh auto;
+      color: #ADADAD;
+
+      input {
+        width: 10%;
+        line-height: 1.5vh;
+        margin: 0 0;
+      }
+    }
+
+    input {
+      border:none;
+      border-bottom: 1px solid #d4d4d4;
+      padding: 5px 2px;
+    }
+
+    button {
+      display: block;
+      font-size: 2vh;
+      margin: 0 auto;
+      width: max-content;
+    }
+  }
+}
+
+

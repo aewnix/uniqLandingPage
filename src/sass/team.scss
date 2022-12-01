@@ -1,0 +1,22 @@
+#team {
+  width: 60vw;
+  h1 {
+    font-size: 7vh;
+    text-align: center;
+  }
+  .row {
+    justify-content: space-evenly;
+    text-align: center;
+    height: max-content;
+
+    .column {
+      width: 100%;
+      height: max-content;
+    }
+    img {
+      height: 20vh;
+      margin: 0 auto 2vh auto;
+      border-radius: 100%;
+    }
+  }
+}

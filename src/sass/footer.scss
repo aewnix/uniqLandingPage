@@ -1,0 +1,47 @@
+footer {
+  padding: 4vh 15vw;
+
+  .row {
+    justify-content: space-between;
+  }
+  a {
+    font-size: 2vh;
+    margin: 1vh;
+    font-weight: 500;
+  }
+  span {
+    font-size: 1.3vh;
+    color: #6A6A6A;
+  }
+
+}
+
+.copyright {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.subscription {
+  form {
+    display: flex;
+
+    input {
+      border-radius: 20px 0 0 20px;
+      border: 1px black solid;
+      margin-right: -5px;
+      padding: 1vh;
+      height: max-content;
+      font-size: 15px;
+    }
+
+    button {
+      background-color: #292929;
+      color: white;
+      border-radius: 0 20px 20px 0;
+      padding: 1vh;
+      height: max-content;
+      border: none;
+    }
+  }
+}

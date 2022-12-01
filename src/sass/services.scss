@@ -1,0 +1,18 @@
+#services {
+  width: 60vw;
+  .row {
+    justify-content: space-between;
+    text-align: center;
+    &:first-child {
+      margin-bottom: 8vh;
+    }
+    .column {
+      width: 100%;
+      height: max-content;
+    }
+    img {
+      height: 15vh;
+      margin: 0 auto 2vh auto;
+    }
+  }
+}

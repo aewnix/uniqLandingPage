@@ -1,0 +1,32 @@
+#howToStart {
+  width: 60vw;
+  margin: 15vh auto;
+  h1 {
+    font-size: 7vh;
+    text-align: center;
+  }
+  h3 {
+    font-size: 3vh;
+    text-decoration: underline;
+    font-weight: 400;
+  }
+  strong {
+    text-decoration: none;
+  }
+
+  p {
+    font-weight: 300;
+    text-align: justify;
+  }
+
+  span {
+    color: #cbcbcb;
+    font-size: 1.5vh;
+  }
+  .row {
+    justify-content: space-between;
+  }
+  .column {
+    width: 40%;
+  }
+}
